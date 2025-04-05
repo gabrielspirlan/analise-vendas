@@ -7,7 +7,7 @@ import numpy as np
 import streamlit as st
 
 st.set_page_config(layout="wide")
-vendas_df = pd.read_csv('vendas_loja_DSM_ADS.csv', encoding='latin1', decimal=",")
+vendas_df = pd.read_csv('vendas_loja_DSM_ADS.csv', encoding='latin1', decimal=",", sep=";")
 vendas_df['Faturamento'] = vendas_df['Preço do Produto'] * vendas_df['Quantidade']
 vendas_df['Data'] = pd.to_datetime(vendas_df['Data'])
 

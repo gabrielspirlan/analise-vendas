@@ -4,6 +4,8 @@ Este repositório contém um aplicativo interativo desenvolvido com **Python**, 
 
 O projeto foi desenvolvido como parte da disciplina de **Estatística Aplicada** na **Fatec Franca**.
 
+# [Clique Aqui Para Acessar o APP!](https://gabrielspirlan-analise-vendas-app-53tlsr.streamlit.app/)
+
 ## 🧠 Objetivo
 
 O principal objetivo do projeto é aplicar conceitos estatísticos por meio da análise exploratória de dados, permitindo ao usuário:

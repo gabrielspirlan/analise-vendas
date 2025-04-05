@@ -7,7 +7,7 @@ import numpy as np
 import streamlit as st
 
 st.set_page_config(layout="wide")
-vendas_df = pd.read_excel('vendas_loja_DSM_ADS.xlsx')
+vendas_df = pd.read_excel('dataset/vendas_loja_DSM_ADS.xlsx')
 vendas_df['Faturamento'] = vendas_df['Preço do Produto'] * vendas_df['Quantidade']
 vendas_df['Data'] = pd.to_datetime(vendas_df['Data'])
 
